@@ -59,16 +59,4 @@ extension UIImageView {
             }
         }
     }
-//    func makeRounded(_ removeBorder: Bool? = nil, _ backgroundColor: UIColor? = nil, _ isRounded: Bool? = nil) {
-//        removeBorder == nil ? self.layer.borderWidth = 1 : nil
-//        if let backgroundColor = backgroundColor {
-//            self.image = self.image?.withRenderingMode(.alwaysTemplate)
-//            self.tintColor = backgroundColor
-//        }
-//        self.contentMode = isRounded ?? false ? UIView.ContentMode.scaleAspectFill : UIView.ContentMode.scaleAspectFit
-//        self.layer.masksToBounds = false
-//        self.layer.borderColor = UIColor.black.cgColor
-//        self.layer.cornerRadius = self.frame.height / 2
-//        self.clipsToBounds = true
-//    }
 }
